@@ -43,23 +43,23 @@ export default {
 }
 
 #botao .btn-secondary {
-  background-color: white;
+  background-color: #7d9c96;
   font-weight: bolder;
-  border-color: blue;  
+  border-color: #fbf17e;  
   transition: 0.3s;
 }
 
 #botao a {
   text-decoration: none;
-  color: #86b198;  
+  color: #fff;  
 }
 
 #botao a:hover{
-  color: white;
+  color:  #86b198;
 }
 
 #botao .btn-secondary:hover {
-  background-color: grey;
+  background-color:  #fbf17e;
   
 }
 </style>

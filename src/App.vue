@@ -10,17 +10,19 @@
         <router-view></router-view>
       </transition>
     </main>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Toolbar from "./components/Toolbar";
+import Footer from "./components/Footer";
 
 export default {
   name: "App",
 
   components: {
-    Toolbar,
+    Toolbar, Footer
   },
 
   data: () => ({
