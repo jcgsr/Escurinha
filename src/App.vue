@@ -32,10 +32,11 @@ export default {
 </script>
 
 <style lang="css">
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 html,
 *,
 body {
   color: #86b198;
-  
+  font-family: 'Montserrat', sans-serif;  
 }
 </style>
