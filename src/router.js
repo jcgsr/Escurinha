@@ -3,6 +3,8 @@ import Router from 'vue-router'
 
 import Home from './components/Home'
 import Sobre from './components/Sobre'
+import Cursos from './components/Cursos'
+import Contatos from './components/Contatos'
 
 Vue.use(Router)
 
@@ -17,5 +19,13 @@ export default new Router({
       path: '/sobre',
       name: 'sobre',
       component: Sobre
+   }, {
+      path: '/cursos',
+      name: 'cursos',
+      component: Cursos
+   }, {
+      path: '/contatos',
+      name: 'contatos',
+      component: Contatos
    }]
 })

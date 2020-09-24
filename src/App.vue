@@ -1,20 +1,16 @@
 <template>
-  <v-app>
+  <div id="app">
     <Toolbar />
-    <v-main>
-      <v-main>
-        <v-container>
-          <transition
-            enter-active-class="animate__animated animate__fadeIn"
-            leave-active-class="animate__animated animate__fadeOut"
-            mode="out-in"
-          >
-            <router-view></router-view>
-          </transition>
-        </v-container>
-      </v-main>
-    </v-main>
-  </v-app>
+    <main>
+      <transition
+        enter-active-class="animate__animated animate__fadeIn"
+        leave-active-class="animate__animated animate__fadeOut"
+        mode="out-in"
+      >
+        <router-view></router-view>
+      </transition>
+    </main>
+  </div>
 </template>
 
 <script>
@@ -32,3 +28,10 @@ export default {
   }),
 };
 </script>
+
+<style lang="css">
+html,
+* {
+  color: #86b198;
+}
+</style>

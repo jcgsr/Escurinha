@@ -1,22 +1,23 @@
 <template>
-  <v-container>
-    <v-row class="text-center">
-      <v-col cols="12">
-        <v-img
-          :src="require('../assets/Marca.png')"
-          class="my-3"
-          contain
-          height="400"
-        />
-      </v-col>
-    </v-row>
-  </v-container>
+  <div id="container">
+    <img :src="require('../assets/Marca.png')" />
+  </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Home",
 
   data: () => ({}),
 };
 </script>
+
+<style lang="css">
+img {
+  margin: 0 auto;
+}
+
+#container {
+  text-align: center;
+}
+</style>
