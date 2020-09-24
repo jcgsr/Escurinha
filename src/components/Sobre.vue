@@ -3,7 +3,7 @@
     <h1 class="mt-2">Clara Azevedo</h1>
     <div class="parallax animate__animated animate__backInDown"></div>
 
-    <div class="texto mt-2 animate__animated animate__backInUp">
+    <div class="texto mt-4 animate__animated animate__backInUp">
       Sou aracajuana, tenho 24 anos e como vocês já perceberam, sou muito
       sonhadora, faço dos meus sonhos uma meta e, para mim, realiza-los é um dos
       propósitos da vida. Meus amigos e familiares costumam dizer que além de
@@ -15,9 +15,8 @@
     </div>
     <div class="services">
       <b-card
-        class="mt-5 animate__animated animate__bounceIn"
+        class="mt-5 animate__animated animate__bounceIn card"
         title="POR QUE DEVO FAZER PILATES?"
-        
       >
         <b-card-text>
           Pilates é um método de atividade física desenvolvido por Joseph
@@ -28,9 +27,8 @@
         </b-card-text>
       </b-card>
       <b-card
-        class="mt-5 animate__animated animate__bounceIn"
+        class="mt-5 animate__animated animate__bounceIn card"
         title="COMO FUNCIONA A ACUPUNTURA?"
-        
       >
         <b-card-text>
           Técnica milenar Chinesa, que tem como objetivo principal equilibrar
@@ -39,9 +37,8 @@
         </b-card-text>
       </b-card>
       <b-card
-        class="mt-5 animate__animated animate__bounceIn"
+        class="mt-5 animate__animated animate__bounceIn card"
         title="QUANDO DEVO PROCURAR UM FISIOTERAPEUTA?"
-       
       >
         <b-card-text>
           Reabilitar, prevenir e tratar os distúrbios cinético-funcionais
@@ -61,6 +58,10 @@
   font-size: 1.5rem;
 }
 
+.card + .card {
+  margin-left: 0.5rem;
+}
+
 .services {
   display: flex;
   width: 70%;
@@ -73,26 +74,26 @@
 
 .parallax {
   /* The image used */
-  background-image: url("../assets/Escurinha6.jpg");
+  background-image: url("../assets/Escurinha4.jpg");
 
   /* Set a specific height */
-  min-height: 500px;
+  height: 700px;
+  width: 70%;
+  margin: 0 auto;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 70%;
 }
 
 #sobre {
   text-align: center;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 456px) {
-  .foto {
-    width: 90%;
-  }
   .texto {
     width: 90%;
   }
@@ -100,6 +101,31 @@
   .services {
     flex-direction: column;
     width: 80%;
+  }
+
+  .parallax {
+    height: 400px;
+    width: 90%;
+    background-size: 80%;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .texto {
+    width: 80%;
+  }
+
+  .parallax {
+    height: 400px;
+    width: 90%;
+    background-size: 80%;
+    background-position: center;
   }
 }
 </style>

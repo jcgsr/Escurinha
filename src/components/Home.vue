@@ -20,4 +20,10 @@ img {
 #container {
   text-align: center;
 }
+
+@media only screen and (max-width: 456px) {
+  #container img{
+    max-width: 90%;
+  }
+}
 </style>

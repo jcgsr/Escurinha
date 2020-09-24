@@ -31,7 +31,9 @@ export default {
 
 <style lang="css">
 html,
-* {
+*,
+body {
   color: #86b198;
+  
 }
 </style>
