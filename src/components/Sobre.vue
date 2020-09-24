@@ -15,7 +15,7 @@
     </div>
     <div class="services">
       <b-card
-        class="mt-5 animate__animated animate__bounceInLeft card"
+        class="mt-5 animate__animated animate__bounceInLeft card shadow p-3 mb-5 bg-blue rounded"
         title="POR QUE DEVO FAZER PILATES?"
       >
         <b-card-text>
@@ -27,7 +27,7 @@
         </b-card-text>
       </b-card>
       <b-card
-        class="mt-5 animate__animated animate__bounceInUp card"
+        class="mt-5 animate__animated animate__bounceInUp card shadow p-3 mb-5 bg-blue rounded"
         title="COMO FUNCIONA A ACUPUNTURA?"
       >
         <b-card-text>
@@ -37,7 +37,7 @@
         </b-card-text>
       </b-card>
       <b-card
-        class="mt-5 animate__animated animate__bounceInRight card"
+        class="mt-5 animate__animated animate__bounceInRight card shadow p-3 mb-5 bg-blue rounded"
         title="QUANDO DEVO PROCURAR UM FISIOTERAPEUTA?"
       >
         <b-card-text>
