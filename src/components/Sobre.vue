@@ -15,10 +15,10 @@
     </div>
     <div class="services">
       <b-card
-        class="mt-5 animate__animated animate__bounceInLeft card shadow p-3 mb-5 bg-blue rounded"
+        class="mt-5 animate__animated animate__bounceInLeft card shadow p-3 bg-blue rounded"
         title="POR QUE DEVO FAZER PILATES?"
       >
-        <b-card-text>
+        <b-card-text class="card-text">
           Pilates é um método de atividade física desenvolvido por Joseph
           Pilates, visa trabalhar o ser humano como um todo, mente corpo e
           espirito, é uma filosofia de vida que possibilita fortalecimento,
@@ -27,20 +27,20 @@
         </b-card-text>
       </b-card>
       <b-card
-        class="mt-5 animate__animated animate__bounceInUp card shadow p-3 mb-5 bg-blue rounded"
+        class="mt-5 animate__animated animate__bounceInUp card shadow p-3 bg-blue rounded"
         title="COMO FUNCIONA A ACUPUNTURA?"
       >
-        <b-card-text>
+        <b-card-text class="card-text">
           Técnica milenar Chinesa, que tem como objetivo principal equilibrar
           energias do indivíduo, tratando e prevenindo doenças, promovendo assim
           saúde e bem estar.
         </b-card-text>
       </b-card>
       <b-card
-        class="mt-5 animate__animated animate__bounceInRight card shadow p-3 mb-5 bg-blue rounded"
+        class="mt-5 animate__animated animate__bounceInRight card shadow p-3 bg-blue rounded"
         title="QUANDO DEVO PROCURAR UM FISIOTERAPEUTA?"
       >
-        <b-card-text>
+        <b-card-text class="card-text">
           Reabilitar, prevenir e tratar os distúrbios cinético-funcionais
           decorrentes de alterações no movimento do corpo humano. Teve qualquer
           tipo de fratura, lesão ou sente dor? Então este é o momento parar me
@@ -64,9 +64,10 @@
 
 .services {
   display: flex;
-  width: 70%;
+  width: 55%;
   margin: 0 auto;
-  padding-bottom: 5rem;
+  padding-bottom: 5rem; 
+  flex-direction: column; 
 }
 
 .parallax {
@@ -96,7 +97,6 @@
   }
 
   .services {
-    flex-direction: column;
     width: 80%;
   }
 
@@ -121,8 +121,12 @@
   .parallax {
     height: 400px;
     width: 90%;
-    background-size: 80%;
+    background-size: 95%;
     background-position: center;
   }
+  @media only screen and (max-width: 325px) {}
+    .parallax {
+      background-position: bottom;
+    }
 }
 </style>

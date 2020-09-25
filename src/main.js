@@ -10,6 +10,7 @@ import 'popper.js';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import 'materialize-css'
 
 // Install BootstrapVue
 Vue.use(BootstrapVue)

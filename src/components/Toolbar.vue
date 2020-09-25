@@ -4,7 +4,7 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav id="botao">
-          <b-button size="sm" class="my-2 my-sm-0 ml-2">
+          <b-button size="sm" class="my-2 my-sm-0 ml-2 waves-effect">
             <router-link to="/"> Início </router-link>
           </b-button>
           <b-button size="sm" class="my-2 my-sm-0 ml-2">
@@ -45,21 +45,20 @@ export default {
 #botao .btn-secondary {
   background-color: #7d9c96;
   font-weight: bolder;
-  border-color: #fbf17e;  
+  border-color: #fbf17e;
   transition: 0.3s;
 }
 
 #botao a {
   text-decoration: none;
-  color: #fff;  
+  color: #fff;
 }
 
-#botao a:hover{
-  color:  #86b198;
+#botao a:hover {
+  color: #86b198;
 }
 
 #botao .btn-secondary:hover {
-  background-color:  #fbf17e;
-  
+  background-color: #fbf17e;
 }
 </style>
