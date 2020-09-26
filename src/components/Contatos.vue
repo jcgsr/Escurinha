@@ -3,10 +3,16 @@
     <h1 class="mt-2 mb-8">Contatos</h1>
     <div class="contato">
       <a class="animate__animated animate__tada" target="new" href="mailto:pilatescomclara@gmail.com"
-        ><i class="far fa-envelope"></i><p>pilatescomclara@gmail.com</p></a
+        ><i class="far fa-envelope"></i></a
       >
       <a class="animate__animated animate__tada" :href="linkWhatsapp"
-        ><i class="fab fa-whatsapp"></i><p>(79)99965-2202</p></a
+        ><i class="fab fa-whatsapp"></i></a
+      >
+      <a class="animate__animated animate__tada" :href="linkFB"
+        ><i class="fab fa-facebook-f"></i></a
+      >
+      <a class="animate__animated animate__tada" :href="linkInsta"
+        ><i class="fab fa-instagram"></i></a
       >
     </div>
   </div>
@@ -17,6 +23,8 @@ export default {
   data() {
     return {
       linkWhatsapp: "https://api.whatsapp.com/send?phone=5579999652202&text=",
+      linkFB: "https://www.facebook.com/clara.azevedo.52687506",
+      linkInsta: "https://www.instagram.com/pilatescomclara/"
       
     };
   },
