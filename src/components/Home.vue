@@ -1,6 +1,6 @@
 <template>
   <div id="container">
-    <img :src="require('../assets/Marca.png')" />
+    <img :src="require('../assets/EscurinhaCapa.png')" />
   </div>
 </template>
 
@@ -15,15 +15,10 @@ export default {
 <style lang="css">
 img {
   margin: 0 auto;
+  width: 100%;
 }
 
 #container {
   text-align: center;
-}
-
-@media only screen and (max-width: 456px) {
-  #container img{
-    max-width: 90%;
-  }
 }
 </style>
