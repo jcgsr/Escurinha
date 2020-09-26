@@ -1,17 +1,13 @@
 <template>
   <div id="sobre">
-    <h1 class="mt-2">Clara Azevedo</h1>
+    <h1 class="mt-2">Quem é Clara Azevedo?</h1>
     <div class="parallax animate__animated animate__backInDown"></div>
 
     <div class="texto mt-4 animate__animated animate__backInUp">
-      Sou aracajuana, tenho 24 anos e como vocês já perceberam, sou muito
-      sonhadora, faço dos meus sonhos uma meta e, para mim, realiza-los é um dos
-      propósitos da vida. Meus amigos e familiares costumam dizer que além de
-      sonhadora sou amorosa, bem humorada e determinada, e é assim que vivo,
-      tentando sempre ver o lado positivo e me divertindo durante a jornada. Eu
-      adoro uma aventura, desafios me impulsionam a dar o meu melhor, e assim
-      sou na profissão, que com muita dedicação e afetividade tento dar a
-      atenção devida a cada vida que me é confiada.
+      Sou Fisioterapeuta, especialista com formação internacional no método
+          Pilates e acupunturista. Visualizo a minha profissão como missão,
+          ajudar ao próximo é o meu propósito de vida e com muito estudo,
+          dedicação e afeto cuido de cada vida que me é confiada!
     </div>
     <div class="services">
       <b-card
@@ -49,17 +45,7 @@
           segura para te devolver alivio e bem-estar.
         </b-card-text>
       </b-card>
-      <b-card
-        class="mt-5 animate__animated animate__bounceInRight card shadow p-3 bg-blue rounded"
-        title="QUEM É CLARA AZEVEDO?"
-      >
-        <b-card-text class="card-text">
-          Sou Fisioterapeuta, especialista com formação internacional no método
-          Pilates e acupunturista. Visualizo a minha profissão como missão,
-          ajudar ao próximo é o meu propósito de vida e com muito estudo,
-          dedicação e afeto cuido de cada vida que me é confiada!
-        </b-card-text>
-      </b-card>
+     
     </div>
   </div>
 </template>
