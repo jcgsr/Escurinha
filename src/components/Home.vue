@@ -21,4 +21,10 @@ img {
 #container {
   text-align: center;
 }
+
+@media only screen and (max-width: 456px) {
+  #container {
+    padding-bottom: 30rem;
+  }
+}
 </style>
