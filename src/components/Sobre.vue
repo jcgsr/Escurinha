@@ -61,6 +61,9 @@
   margin-left: 0.5rem;
 }
 
+.card-title {
+  font-weight: 700;
+}
 .services {
   display: flex;
   width: 55%;
