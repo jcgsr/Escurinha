@@ -16,7 +16,7 @@
       >
         <b-card-text class="card-text">
           Porque trabalha o corpo de forma global, traz conexão entre corpo -
-          mente - espirito, possibilita FORTALECIMENTO dos músculos,
+          mente - espírito, possibilita FORTALECIMENTO dos músculos,
           FLEXIBILIDADE E MOBILIDADE das articulações, proporcionando assim uma
           perfeita CONSCIÊNCIA E CONTROLE dos movimentos.
         </b-card-text>
@@ -28,7 +28,7 @@
         <b-card-text class="card-text">
           È uma técnica milenar Chinesa, que tem como objetivo EQUILIBRAR AS
           ENERGIAS do indivíduo. Através das agulhas, pontos específicos são
-          estimulados afim de TRATAR E PREVENIR DOENÇAS, promovendo saúde e bem
+          estimulados a fim de TRATAR E PREVENIR DOENÇAS, promovendo saúde e bem
           estar completo.
         </b-card-text>
       </b-card>
@@ -42,7 +42,7 @@
           Reabilitar e prevenir as alterações cinético-funcionais são os meus
           objetivos. Utilizo de técnicas como Liberação miofascial,
           Ventosaterapia, Dry Needling e Acupuntura de forma inteligente e
-          segura para te devolver alivio e bem-estar.
+          segura para lhe devolver alívio e bem-estar.
         </b-card-text>
       </b-card>
      
