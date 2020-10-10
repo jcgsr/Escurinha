@@ -26,7 +26,7 @@
         title="COMO FUNCIONA A ACUPUNTURA?"
       >
         <b-card-text class="card-text">
-          È uma técnica milenar Chinesa, que tem como objetivo EQUILIBRAR AS
+          É uma técnica milenar Chinesa, que tem como objetivo EQUILIBRAR AS
           ENERGIAS do indivíduo. Através das agulhas, pontos específicos são
           estimulados a fim de TRATAR E PREVENIR DOENÇAS, promovendo saúde e bem
           estar completo.
