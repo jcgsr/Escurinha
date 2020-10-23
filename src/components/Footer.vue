@@ -41,6 +41,6 @@ export default {
    }
 
    .foot a {
-      font-size: small;
+      font-size: .6rem;
    }
 </style>
