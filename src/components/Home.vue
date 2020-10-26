@@ -4,7 +4,7 @@
     <div class="fotos-menu">
 
      <div class="links"> 
-       <router-link to="/sobre">
+       <router-link :to="{path: '/sobre', hash: '#acupuntura'}">
          <img :src="require('../assets/Escurinha-acupuntura.jpeg')" />
        </router-link>      
        <div class="top-right mb-3">Como funciona a acupuntura?</div>
@@ -34,6 +34,7 @@ export default {
 
   data: () => ({}),
 };
+
 </script>
 
 <style lang="css">
