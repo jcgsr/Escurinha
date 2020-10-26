@@ -4,23 +4,23 @@
     <div class="fotos-menu">
 
      <div class="links"> 
-       <a href="/sobre/#acupuntura">
+       <router-link to="/sobre">
          <img :src="require('../assets/Escurinha-acupuntura.jpeg')" />
-       </a>      
+       </router-link>      
        <div class="top-right mb-3">Como funciona a acupuntura?</div>
      </div>
 
      <div class="links">          
-      <a href="/sobre/#pilates">  
+      <router-link to="/sobre">  
         <img :src="require('../assets/Escurinha-pilates.jpeg')" />
-      </a>
+      </router-link>
       <div class="top-right mb-3">Por que devo fazer pilates?</div>
     </div>
 
     <div class="links">          
-      <a href="/sobre/#fisio">  
+      <router-link to="/sobre">  
         <img :src="require('../assets/Escurinha-fisio.jpeg')" />
-      </a>
+      </router-link>
       <div class="top-right mb-3">Quando devo procurar um fisio?</div>
     </div>   
   </div>
