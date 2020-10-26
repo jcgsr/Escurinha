@@ -34,7 +34,11 @@ export default {
 <style lang="css">
 #contatos {
   margin: 0 auto;
-  text-align: center;
+  text-align: center;  
+}
+
+#contatos h1 {
+  color: #86b198;
 }
 
 .contato {

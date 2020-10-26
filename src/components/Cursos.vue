@@ -2,7 +2,7 @@
   <div id="cursos">
     <h1 class="mt-2">Cursos</h1>
     <!-- <div class="parallax1 animate__animated animate__backInDown"></div> -->
-    <img src="../assets/Escurinha1.jpeg" alt="Foto de Clara Azevedo" />
+    <img src="../assets/Escurinha-cursos.jpeg" alt="Foto de Clara Azevedo" />
   </div>
 </template>
 
@@ -13,37 +13,23 @@
   padding-bottom: 5rem;
 }
 
-#cursos img {
-  width: 70%;
+h1 {
+  color: #86b198;
 }
 
-/* .parallax1 {
-  background-image: url("../assets/Escurinha1.jpeg");
-
-  height: 500px;
-  width: 70%;
+#cursos img {
   margin: 0 auto;
-
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 70%;
-} */
+  width: 32rem;
+  height: 32rem;
+  border-radius: 50%/50%;
+}
 
 @media only screen and (max-width: 456px) {
-  .parallax1 {
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-  }
-
-  @media only screen and (max-width: 768px) {
-    .parallax1 {
-      height: 400px;
-      width: 90%;
-      background-size: cover;
-      background-position: top;
-    }
+  #cursos img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%/50%;
+    
   }
 }
 </style>

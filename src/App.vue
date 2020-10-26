@@ -36,7 +36,8 @@ export default {
 html,
 *,
 body {
-  color: #86b198;
+  color: #fbf17e;
   font-family: 'Montserrat', sans-serif;  
+  
 }
 </style>
