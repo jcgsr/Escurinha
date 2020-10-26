@@ -11,7 +11,7 @@
     </div>
     <div class="services">
       <b-card
-      class="mt-5 animate__animated animate__bounceInLeft card shadow p-3 bg-blue rounded-circle"
+      class="mt-5 animate__animated animate__bounceInLeft card shadow p-3 bg-blue rounded"
       title="POR QUE DEVO FAZER PILATES?"
       id="pilates"
       rounded
@@ -36,7 +36,7 @@
     </b-card-text>
   </b-card>
   <b-card
-  class="mt-5 animate__animated animate__bounceInRight card shadow p-3 bg-blue rounded-circle"
+  class="mt-5 animate__animated animate__bounceInRight card shadow p-3 bg-blue rounded"
   title="QUANDO DEVO PROCURAR UM FISIOTERAPEUTA?"
   id="fisio"
   >
@@ -64,9 +64,8 @@
 
 #sobre img {
   margin: 0 auto;
-  width: 32rem;
-  height: 32rem;
-  border-radius: 50%/50%;
+  width: 350px; 
+  
 }
 
 #sobre h3 {
@@ -132,10 +131,10 @@
   }
 
   #sobre img {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%/50%;
-  }
+  margin: 0 auto;
+  width: 70%; 
+  
+}
 
   .card-title {
     font-size: inherit;
