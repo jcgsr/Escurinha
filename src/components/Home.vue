@@ -21,7 +21,7 @@
     <router-link to="/sobre">
       <img :src="require('../assets/Escurinha-fisio.jpeg')" />
     </router-link>
-    <div class="top-right mb-3">Quando devo procurar um fisio?</div>
+    <div class="top-right mb-3">Quando devo procurar um fisioterapeuta?</div>
   </div>   
 </div>
 </div>
