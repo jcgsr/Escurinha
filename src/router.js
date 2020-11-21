@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Sobre from './components/Sobre'
 import Cursos from './components/Cursos'
 import Contatos from './components/Contatos'
+import Local from './components/Local'
 
 Vue.use(Router)
 
@@ -27,5 +28,9 @@ export default new Router({
       path: '/contatos',
       name: 'contatos',
       component: Contatos
+   }, {
+      path: '/local',
+      name: 'local',
+      component: Local
    }]
 })

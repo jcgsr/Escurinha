@@ -30,6 +30,9 @@
         </b-button>
         <b-button size="sm" class="my-2 my-sm-0 ml-2">
           <router-link to="/contatos"> Contatos </router-link>
+        </b-button> 
+        <b-button size="sm" class="my-2 my-sm-0 ml-2">
+          <router-link to="/local"> Localização </router-link>
         </b-button>
       </b-navbar-nav>
     </b-collapse>
