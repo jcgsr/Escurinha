@@ -27,7 +27,7 @@ export default {
   },
   data() {
     return {
-      logo: ROOT_PATH + require("./assets/Marca.png"),
+      logo: ROOT_PATH + require("./assets/Escurinha-topo.png"),
     };
   },
   metaInfo() {
