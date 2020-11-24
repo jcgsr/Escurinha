@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import Meta from 'vue-meta'
 
 
 import router from './router'
@@ -20,6 +21,8 @@ Vue.use(VueScrollTo)
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
+
+Vue.use.(Meta)
 
 Vue.config.productionTip = false
 

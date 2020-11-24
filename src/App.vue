@@ -18,26 +18,51 @@
 import Toolbar from "./components/Toolbar";
 import Footer from "./components/Footer";
 
+let ROOT_PATH = "https://claraazevedo.com.br/";
 export default {
   name: "App",
-
   components: {
-    Toolbar, Footer
+    Toolbar,
+    Footer,
   },
-
-  data: () => ({
-    //
-  }),
+  data() {
+    return {
+      logo: ROOT_PATH + require("./assets/Escurinha-topo.png"),
+    };
+  },
+  metaInfo() {
+    return {
+      meta: [
+        // Twitter Card
+        { name: "twitter:card", content: "Clara Azevedo" },
+        { name: "twitter:title", content: "Site de Clara Azevedo - Fisioterapeuta" },
+        {
+          name: "twitter:description",
+          content: "Site de Clara Azevedo - Fisioterapeuta",
+        },
+        // image must be an absolute path
+        { name: "twitter:image", content: this.logo },
+        // Facebook OpenGraph
+        { property: "og:title", content: "Site de Clara Azevedo - Fisioterapeuta" },
+        { property: "og:site_name", content: "Clara Azevedo" },
+        { property: "og:type", content: "website" },
+        { property: "og:image", content: this.logo },
+        {
+          property: "og:description",
+          content: "Site de Clara Azevedo - Fisioterapeuta",
+        },
+      ],
+    };
+  },
 };
 </script>
 
 <style lang="css">
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 html,
 *,
 body {
   color: #fbf17e;
-  font-family: 'Montserrat', sans-serif;  
-  
+  font-family: "Montserrat", sans-serif;
 }
 </style>
