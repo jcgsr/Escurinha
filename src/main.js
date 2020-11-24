@@ -22,7 +22,7 @@ Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
-Vue.use.(Meta)
+Vue.use(Meta)
 
 Vue.config.productionTip = false
 
