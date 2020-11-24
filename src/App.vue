@@ -38,7 +38,7 @@ export default {
         { name: "twitter:title", content: "Site de Clara Azevedo - Fisioterapeuta" },
         {
           name: "twitter:description",
-          content: "Site de Clara Azevedo - Fisioterapeuta",
+          content: "Site de Clara Azevedo",
         },
         // image must be an absolute path
         { name: "twitter:image", content: this.logo },
@@ -49,7 +49,7 @@ export default {
         { property: "og:image", content: this.logo },
         {
           property: "og:description",
-          content: "Site de Clara Azevedo - Fisioterapeuta",
+          content: "Site de Clara Azevedo",
         },
       ],
     };
