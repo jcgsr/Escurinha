@@ -3,15 +3,15 @@
     <Toolbar />
     <main>
       <transition
-        enter-active-class="animate__animated animate__fadeIn"
-        leave-active-class="animate__animated animate__fadeOut"
-        mode="out-in"
+      enter-active-class="animate__animated animate__fadeIn"
+      leave-active-class="animate__animated animate__fadeOut"
+      mode="out-in"
       >
-        <router-view></router-view>
-      </transition>
-    </main>
-    <Footer />
-  </div>
+      <router-view></router-view>
+    </transition>
+  </main>
+  <Footer />
+</div>
 </template>
 
 <script>
@@ -34,23 +34,25 @@ export default {
     return {
       meta: [
         // Twitter Card
-        { name: "twitter:card", content: "Clara Azevedo" },
-        { name: "twitter:title", content: "Site de Clara Azevedo - Fisioterapeuta" },
-        {
-          name: "twitter:description",
-          content: "Site de Clara Azevedo",
-        },
+      { name: "twitter:card", content: "Clara Azevedo" },
+      { name: "twitter:title", content: "Site de Clara Azevedo - Fisioterapeuta" },
+      {
+        name: "twitter:description",
+        content: "Site de Clara Azevedo",
+      },
         // image must be an absolute path
-        { name: "twitter:image", content: this.logo },
+      { name: "twitter:image", content: this.logo },
         // Facebook OpenGraph
-        { property: "og:title", content: "Site de Clara Azevedo - Fisioterapeuta" },
-        { property: "og:site_name", content: "Clara Azevedo" },
-        { property: "og:type", content: "website" },
-        { property: "og:image", content: this.logo },
-        {
-          property: "og:description",
-          content: "Site de Clara Azevedo",
-        },
+      { property: "og:title", content: "Site de Clara Azevedo - Fisioterapeuta" },
+      { property: "og:site_name", content: "Clara Azevedo" },
+      { property: "og:type", content: "website" },
+      { property: "og:image", content: this.logo },
+      { property: "og:image:width", content: "400" },
+      { property: "og:image:height", content: "300"},
+      {
+        property: "og:description",
+        content: "Site de Clara Azevedo",
+      },
       ],
     };
   },
