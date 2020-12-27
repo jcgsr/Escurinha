@@ -1,6 +1,6 @@
 <template>
   <div id="container">
-    <img :src="require('../assets/Escurinha-topo.png')" />
+    <img id="top-img" :src="require('../assets/Escurinha-topo.png')" />
     <div class="fotos-menu">
 
      <div class="links mt-5"> 
@@ -73,6 +73,14 @@ img {
     width: 100px;  
   }
 
+  #top-img {
+    height: 250px;
+    width: 100%;
+  }
+
+  .links {
+    font-size: 1.5rem;
+  }
 
 }
 </style>
