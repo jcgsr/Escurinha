@@ -75,7 +75,7 @@ img {
 
   #top-img {
     height: 250px;
-    width: 100%;
+    width: 430px;
   }
 
   .links {
