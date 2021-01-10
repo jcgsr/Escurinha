@@ -15,22 +15,42 @@ export default new Router({
    routes: [{
       path: '/',
       name: 'home',
-      component: Home
+      component: Home,
+      meta: {
+         auth: false,
+         title: 'Clara Azevedo'
+      }
    }, {
       path: '/sobre',
       name: 'sobre',
-      component: Sobre
+      component: Sobre,
+      meta: {
+         auth: false,
+         title: 'Sobre'
+      }
    }, {
       path: '/cursos',
       name: 'cursos',
-      component: Cursos
+      component: Cursos,
+      meta: {
+         auth: false,
+         title: 'Cursos'
+      }
    }, {
       path: '/contatos',
       name: 'contatos',
-      component: Contatos
+      component: Contatos,
+      meta: {
+         auth: false,
+         title: 'Contatos'
+      }
    }, {
       path: '/local',
       name: 'local',
-      component: Local
+      component: Local,
+      meta: {
+         auth: false,
+         title: 'Localização'
+      }
    }]
 })

@@ -30,6 +30,14 @@ export default {
       logo: ROOT_PATH + require("./assets/Marca.png"),
     };
   },
+  watch: {
+    '$route':{
+      handler: (to) => {
+        document.title = to.meta.title || 'Susi Pessôa'
+      },
+      immediate: true
+    }
+  },
   metaInfo() {
     return {
       meta: [
