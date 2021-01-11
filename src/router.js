@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Meta from 'vue-meta'
 
 import Home from './components/Home'
 import Sobre from './components/Sobre'
@@ -8,6 +9,7 @@ import Contatos from './components/Contatos'
 import Local from './components/Local'
 
 Vue.use(Router)
+Vue.use(Meta)
 
 export default new Router({
    mode: "history",
