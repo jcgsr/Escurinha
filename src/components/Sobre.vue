@@ -10,47 +10,49 @@
       cuido de cada vida que me é confiada!
     </div>
     <div class="services">
-      <b-card
-        class="mt-5 animate__animated animate__bounceInLeft card shadow p-3 bg-blue rounded"
-        title="POR QUE DEVO FAZER PILATES?"
-        id="pilates"
-        rounded
-      >
-        <b-card-text class="card-text">
-          Porque trabalha o corpo de forma global, traz conexão entre corpo -
-          mente - espírito, possibilita FORTALECIMENTO dos músculos,
-          FLEXIBILIDADE E MOBILIDADE das articulações, proporcionando assim uma
-          perfeita CONSCIÊNCIA E CONTROLE dos movimentos.
-        </b-card-text>
-      </b-card>
-      <b-card
-        class="mt-5 animate__animated animate__bounceInUp card shadow p-3 bg-blue rounded"
-        title="COMO FUNCIONA A ACUPUNTURA?"
-        id="acupuntura"
-      >
-        <b-card-text class="card-text">
-          É uma técnica milenar Chinesa, que tem como objetivo EQUILIBRAR AS
-          ENERGIAS do indivíduo. Através das agulhas, pontos específicos são
-          estimulados a fim de TRATAR E PREVENIR DOENÇAS, promovendo saúde e bem
-          estar completo.
-        </b-card-text>
-      </b-card>
-      <b-card
-        class="mt-5 animate__animated animate__bounceInRight card shadow p-3 bg-blue rounded"
-        title="QUANDO DEVO PROCURAR UM FISIOTERAPEUTA?"
-        id="fisio"
-      >
-        <b-card-text class="card-text">
-          Se você tem qualquer tipo de lesão, sente dor ou até mesmo pretende
-          prevenir o adoecimento, então este é o momento para me procurar!
-          Reabilitar e prevenir as alterações cinético-funcionais são os meus
-          objetivos. Utilizo de técnicas como Liberação miofascial,
-          Ventosaterapia, Dry Needling e Acupuntura de forma inteligente e
-          segura para lhe devolver alívio e bem-estar.
-        </b-card-text>
-      </b-card>
-    </div>
-  </div>
+     <b-card
+     class="mt-5 animate__animated animate__bounceInRight card shadow p-3 bg-blue rounded"
+     title="QUANDO DEVO PROCURAR UM FISIOTERAPEUTA?"
+     id="fisio"
+     >
+     <b-card-text class="card-text">
+      Se você tem qualquer tipo de lesão, sente dor ou até mesmo pretende
+      prevenir o adoecimento, então este é o momento para me procurar!
+      Reabilitar e prevenir as alterações cinético-funcionais são os meus
+      objetivos. Utilizo de técnicas como Liberação miofascial,
+      Ventosaterapia, Dry Needling e Acupuntura de forma inteligente e
+      segura para lhe devolver alívio e bem-estar.
+    </b-card-text>
+  </b-card>
+  <b-card
+  class="mt-5 animate__animated animate__bounceInLeft card shadow p-3 bg-blue rounded"
+  title="POR QUE DEVO FAZER PILATES?"
+  id="pilates"
+  rounded
+  >
+  <b-card-text class="card-text">
+    Porque trabalha o corpo de forma global, traz conexão entre corpo -
+    mente - espírito, possibilita FORTALECIMENTO dos músculos,
+    FLEXIBILIDADE E MOBILIDADE das articulações, proporcionando assim uma
+    perfeita CONSCIÊNCIA E CONTROLE dos movimentos.
+  </b-card-text>
+</b-card>
+
+<b-card
+class="mt-5 animate__animated animate__bounceInUp card shadow p-3 bg-blue rounded"
+title="COMO FUNCIONA A ACUPUNTURA?"
+id="acupuntura"
+>
+<b-card-text class="card-text">
+  É uma técnica milenar Chinesa, que tem como objetivo EQUILIBRAR AS
+  ENERGIAS do indivíduo. Através das agulhas, pontos específicos são
+  estimulados a fim de TRATAR E PREVENIR DOENÇAS, promovendo saúde e bem
+  estar completo.
+</b-card-text>
+</b-card>
+
+</div>
+</div>
 </template>
 
 <style lang="css">

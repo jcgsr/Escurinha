@@ -3,28 +3,30 @@
     <img id="top-img" :src="require('../assets/Escurinha-topo.png')" />
     <div class="fotos-menu">
 
-     <div class="links mt-5"> 
-      <router-link to="/sobre">        
-       <img :src="require('../assets/Escurinha-acupuntura.jpeg')" />
-     </router-link>    
-     <div class="top-right mb-3">Como funciona a acupuntura?</div>
+      <div class="links">          
+        <router-link to="/sobre">
+          <img :src="require('../assets/Escurinha-fisio.jpeg')" />
+        </router-link>
+        <div class="top-right mb-3">Quando devo procurar um fisioterapeuta?</div>
+      </div>   
+
+      <div class="links">          
+        <router-link to="/sobre">
+          <img :src="require('../assets/Escurinha-pilates.jpeg')" />
+        </router-link>
+        <div class="top-right mb-3">Por que devo fazer pilates?</div>
+      </div>
+      
+      <div class="links mt-5"> 
+        <router-link to="/sobre">        
+         <img :src="require('../assets/Escurinha-acupuntura.jpeg')" />
+       </router-link>    
+       <div class="top-right mb-3">Como funciona a acupuntura?</div>
+     </div>
+
+     
    </div>
-
-   <div class="links">          
-    <router-link to="/sobre">
-      <img :src="require('../assets/Escurinha-pilates.jpeg')" />
-    </router-link>
-    <div class="top-right mb-3">Por que devo fazer pilates?</div>
-  </div>
-
-  <div class="links">          
-    <router-link to="/sobre">
-      <img :src="require('../assets/Escurinha-fisio.jpeg')" />
-    </router-link>
-    <div class="top-right mb-3">Quando devo procurar um fisioterapeuta?</div>
-  </div>   
-</div>
-</div>
+ </div>
 
 </template>
 
