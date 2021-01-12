@@ -33,7 +33,7 @@ export default {
   watch: {
     '$route':{
       handler: (to) => {
-        document.title = to.meta.title || 'Susi Pessôa'
+        document.title = to.meta.title || 'Clara Azevedo'
       },
       immediate: true
     }
