@@ -2,11 +2,7 @@
   <footer class="footer">
     &copy;{{ footer }} <br />
     {{ footer2 }}
-    <div class="foot">
-      {{ msg }}
-      <a class="btn btn-info btn-sm" :href="link">Jovane</a>
-    </div>
-  </footer>
+   </footer>
 </template>
 
 <script>
