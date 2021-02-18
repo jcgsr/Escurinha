@@ -1,6 +1,6 @@
 <template>
-  <div id="container">
-    <img id="top-img" :src="require('../assets/Escurinha-topo.png')" />
+  <div class="container">
+    <img  :src="require('../assets/Escurinha-topo.png')" />
     <div class="fotos-menu">
 
       <div class="links">          
@@ -62,7 +62,7 @@ img {
   border-radius: 50%;
 }
 
-#container {
+.container {
   text-align: center;
 }
 
@@ -73,12 +73,7 @@ img {
     margin-left: .5rem;
     height: 100px;
     width: 100px;  
-  }
-
-  #top-img {
-    height: 250px;
-    width: 430px;
-  }
+  }  
 
   .links {
     font-size: 1.5rem;
