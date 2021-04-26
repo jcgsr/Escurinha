@@ -15,56 +15,56 @@
 </template>
 
 <script>
-import Toolbar from "./components/Toolbar";
-import Footer from "./components/Footer";
+  import Toolbar from "./components/Toolbar";
+  import Footer from "./components/Footer";
 
-let ROOT_PATH = "https://claraazevedo.com.br/";
-export default {
-  name: "App",
-  components: {
-    Toolbar,
-    Footer,
-  },
-  data() {
-    return {
-      logo: ROOT_PATH + require("./assets/Marca.png"),
-    };
-  },
-  watch: {
-    '$route':{
-      handler: (to) => {
-        document.title = to.meta.title || 'Clara Azevedo'
-      },
-      immediate: true
-    }
-  },
-  metaInfo() {
-    return {
-      meta: [
+  let ROOT_PATH = "https://claraazevedo.com.br/";
+  export default {
+    name: "App",
+    components: {
+      Toolbar,
+      Footer,
+    },
+    data() {
+      return {
+        logo: ROOT_PATH + require("./assets/Marca.png"),
+      };
+    },
+    watch: {
+      '$route':{
+        handler: (to) => {
+          document.title = to.meta.title || 'Clara Azevedo'
+        },
+        immediate: true
+      }
+    },
+    metaInfo() {
+      return {
+        meta: [
         // Twitter Card
-      { name: "twitter:card", content: "Clara Azevedo" },
-      { name: "twitter:title", content: "Site de Clara Azevedo - Fisioterapeuta" },
-      {
-        name: "twitter:description",
-        content: "Site de Clara Azevedo",
-      },
+        { name: "twitter:card", content: "Clara Azevedo" },
+        { name: "twitter:title", content: "Site de Clara Azevedo - Fisioterapeuta" },
+        {
+          name: "twitter:description",
+          content: "Site de Clara Azevedo",
+        },
         // image must be an absolute path
-      { name: "twitter:image", content: this.logo },
+        { name: "twitter:image", content: this.logo },
         // Facebook OpenGraph
-      { property: "og:title", content: "Site de Clara Azevedo - Fisioterapeuta" },
-      { property: "og:site_name", content: "Clara Azevedo" },
-      { property: "og:type", content: "website" },
-      { property: "og:image", content: this.logo },
-      { property: "og:image:width", content: "400" },
-      { property: "og:image:height", content: "300"},
-      {
-        property: "og:description",
-        content: "Site de Clara Azevedo",
-      },
-      ],
-    };
-  },
-};
+        { property: "og:title", content: "Site de Clara Azevedo - Fisioterapeuta" },
+        { property: "og:site_name", content: "Clara Azevedo" },
+        { property: "og:type", content: "website" },
+        { property: "og:image", content: this.logo },
+        { property: "og:image:width", content: "400" },
+        { property: "og:image:height", content: "300"},
+        {
+          property: "og:description",
+          content: "Site de Clara Azevedo",
+        },
+        ],
+      };
+    },
+  };
 </script>
 
 <style lang="css">

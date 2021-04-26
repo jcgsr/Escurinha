@@ -11,8 +11,6 @@ export default {
       return {
          footer: '2020 - Clara Azevedo',
          footer2: "Fisioterapeuta",
-         msg: 'Site criado e desenvolvido por ',
-         link: '"https://jcgsr.github.io/",'
       }
    }
 }
@@ -26,17 +24,4 @@ export default {
       color: #fbf17e;
    }
 
-   .foot {
-      font-size: small;
-      padding: 0.5rem;
-      color: #fbf17e;
-   }
-
-   .foot a:link {
-      text-decoration: none;
-   }
-
-   .foot a {
-      font-size: .6rem;
-   }
 </style>
