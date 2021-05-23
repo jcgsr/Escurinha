@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img :src="require('../assets/Escurinha-topo.png')" />
+    <img :src="require('../assets/Marca.png')" />
     <div class="fotos-menu">
       <div class="links">
         <router-link to="/sobre">
