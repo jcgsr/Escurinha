@@ -1,33 +1,31 @@
 <template>
   <div class="container">
-    <img  :src="require('../assets/Escurinha-topo.png')" />
+    <img :src="require('../assets/Escurinha-topo.png')" />
     <div class="fotos-menu">
-
-      <div class="links">          
+      <div class="links">
         <router-link to="/sobre">
           <img :src="require('../assets/Escurinha-fisio.jpeg')" />
         </router-link>
-        <div class="top-right mb-3">Quando devo procurar um fisioterapeuta?</div>
-      </div>   
+        <div class="top-right mb-3">
+          Quando devo procurar um fisioterapeuta?
+        </div>
+      </div>
 
-      <div class="links">          
+      <div class="links">
         <router-link to="/sobre">
           <img :src="require('../assets/Escurinha-pilates.jpeg')" />
         </router-link>
         <div class="top-right mb-3">Por que devo fazer pilates?</div>
       </div>
-      
-      <div class="links mt-5"> 
-        <router-link to="/sobre">        
-         <img :src="require('../assets/Escurinha-acupuntura.jpeg')" />
-       </router-link>    
-       <div class="top-right mb-3">Como funciona a acupuntura?</div>
-     </div>
 
-     
-   </div>
- </div>
-
+      <div class="links mt-5">
+        <router-link to="/sobre">
+          <img :src="require('../assets/Escurinha-acupuntura.jpeg')" />
+        </router-link>
+        <div class="top-right mb-3">Como funciona a acupuntura?</div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -36,7 +34,6 @@ export default {
 
   data: () => ({}),
 };
-
 </script>
 
 <style lang="css">
@@ -46,7 +43,7 @@ img {
 }
 
 .fotos-menu {
-  width: 70%;  
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -55,10 +52,10 @@ img {
 }
 
 .fotos-menu img {
-  margin-bottom: .5rem;
-  margin-left: .5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
   height: 200px;
-  width: 200px;  
+  width: 200px;
   border-radius: 50%;
 }
 
@@ -67,17 +64,15 @@ img {
 }
 
 @media only screen and (max-width: 456px) {
-
   .fotos-menu img {
-    margin-bottom: .5rem;
-    margin-left: .5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
     height: 100px;
-    width: 100px;  
-  }  
+    width: 100px;
+  }
 
   .links {
     font-size: 1.5rem;
   }
-
 }
 </style>
