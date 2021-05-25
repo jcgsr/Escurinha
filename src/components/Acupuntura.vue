@@ -52,7 +52,7 @@
               <div class="conversation">
                 <div class="conversation-container">
                   <div class="message received">
-                    Eu quero fazer uma sessão de acupuntura
+                    Olá! Como posso ajudar?
                     <span class="metadata"><span class="time"></span></span>
                   </div>
                 </div>
@@ -74,7 +74,7 @@
                         fill="#7d8489"
                       />
                     </svg>
-                    Eu quero praticar pilates
+                    Eu quero fazer uma sessão de acupuntura
                   </div>
                   <a :href="linkWhatsapp">
                     <button class="send">

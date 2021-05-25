@@ -83,13 +83,13 @@
                     </svg>
                     Eu quero marcar uma consulta fisioterapêutica
                   </div>
-                  <a :href="linkWhatsapp">
-                    <button class="send">
+                  <button class="send">
+                    <a :href="linkWhatsapp">
                       <div class="circle">
                         <i class="zmdi zmdi-mail-send"></i>
                       </div>
-                    </button>
-                  </a>
+                    </a>
+                  </button>
                 </form>
               </div>
             </div>
