@@ -36,7 +36,7 @@
         <img :src="require('../assets/EscurinhaB5.jpeg')" />
       </b-col>
     </b-row>
-    <b-row class="coluna" data-aos="fade-down">
+    <b-row class="coluna mb-4" data-aos="fade-down">
       <b-col>
         <img :src="require('../assets/EscurinhaB6.jpeg')" />
       </b-col>
