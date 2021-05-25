@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div id="sobre">
     <h3 class="mt-2">Quem é Clara Azevedo?</h3>
     <img class="mt-4" :src="require('../assets/Escurinha-quem.jpeg')" />
@@ -54,7 +54,7 @@
   </div>
 </template>
 
-<style scoped lang="css">
+<style lang="css">
 .texto {
   width: 60%;
   margin: 0 auto;
@@ -144,3 +144,4 @@
   }
 }
 </style>
+ -->
