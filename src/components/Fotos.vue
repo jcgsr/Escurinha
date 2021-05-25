@@ -47,7 +47,7 @@
 <style scoped lang="css">
 #fotos img {
   width: 100%;
-  margin: 0.5rem;
+  margin-top: 1rem;
 }
 #fotos h2 {
   color: #7d9c96;
