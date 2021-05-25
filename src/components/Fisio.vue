@@ -39,6 +39,11 @@
         </b-card>
       </b-col>
     </b-row>
+    <a :href="linkWhatsapp" class="btnW mt-4">
+      <b-button variant="info" size="lg">
+        QUERO MARCAR UMA CONSULTA FISIOTERAPÊUTICA
+      </b-button>
+    </a>
     <div class="page mt-4 mb-4">
       <div class="marvel-device nexus5">
         <div class="screen">
@@ -81,7 +86,7 @@
                         fill="#7d8489"
                       />
                     </svg>
-                    Quero marcar uma consulta
+                    Quero marcar uma consulta fisioterapêutica
                   </div>
                   <button class="send">
                     <a :href="linkWhatsapp">
@@ -537,6 +542,9 @@ body {
   font-size: 24px;
   margin-left: 5px;
 }
+.btnW {
+  display: none;
+}
 
 /* Small Screens */
 
@@ -549,6 +557,12 @@ body {
     width: 90%;
     margin: 0 auto;
     font-size: 1.1rem;
+  }
+  .page {
+    display: none;
+  }
+  .btnW {
+    display: flex;
   }
 }
 

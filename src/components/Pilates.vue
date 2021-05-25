@@ -39,6 +39,11 @@
         </b-card>
       </b-col>
     </b-row>
+    <a :href="linkWhatsapp" class="btnW mt-4">
+      <b-button variant="info" size="lg">
+        EU QUERO PRATICAR PILATES
+      </b-button>
+    </a>
     <div class="page mt-4 mb-4">
       <div class="marvel-device nexus5">
         <div class="screen">
@@ -537,7 +542,9 @@ body {
   font-size: 24px;
   margin-left: 5px;
 }
-
+.btnW {
+  display: none;
+}
 /* Small Screens */
 
 @media only screen and (max-width: 456px) {
@@ -549,6 +556,12 @@ body {
     width: 90%;
     margin: 0 auto;
     font-size: 1.1rem;
+  }
+  .page {
+    display: none;
+  }
+  .btnW {
+    display: flex;
   }
 }
 
