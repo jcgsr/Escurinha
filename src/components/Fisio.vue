@@ -550,9 +550,6 @@ body {
     margin: 0 auto;
     font-size: 1.1rem;
   }
-  .page {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 768px) {
