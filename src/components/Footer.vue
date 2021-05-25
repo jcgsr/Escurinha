@@ -2,16 +2,21 @@
    <footer class="footer">
       &copy;{{ footer }} <br />
       {{ footer2 }}
+      <Whatsapp />
    </footer>
 </template>
 
 <script>
+import Whatsapp from "./WhatsApp.vue";
 export default {
    data() {
       return {
          footer: "2020 - Clara Azevedo",
          footer2: "Fisioterapeuta",
       };
+   },
+   components: {
+      Whatsapp,
    },
 };
 </script>
