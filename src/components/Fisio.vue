@@ -81,7 +81,7 @@
                         fill="#7d8489"
                       />
                     </svg>
-                    Eu quero marcar uma consulta fisioterapêutica
+                    Quero marcar uma consulta
                   </div>
                   <button class="send">
                     <a :href="linkWhatsapp">
