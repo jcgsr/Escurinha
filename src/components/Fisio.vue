@@ -1,135 +1,107 @@
-<!-- <template>
-  <div id="sobre">
-    <h3 class="mt-2">Quem é Clara Azevedo?</h3>
-    <img class="mt-4" :src="require('../assets/Escurinha-quem.jpeg')" />
-
-    <div class="texto mt-4 animate__animated animate__backInUp">
-      Sou Fisioterapeuta, especialista com formação internacional no método
-      Pilates e acupunturista. Visualizo a minha profissão como missão, ajudar
-      ao próximo é o meu propósito de vida e com muito estudo, dedicação e afeto
-      cuido de cada vida que me é confiada!
-    </div>
-    <div class="services">
-      <b-card
-        class="mt-5 animate__animated animate__bounceInRight card shadow p-3 bg-blue rounded"
-        title="QUANDO DEVO PROCURAR UM FISIOTERAPEUTA?"
-        id="fisio"
+<template>
+  <b-container class="mb-4 fisio">
+    <h1 class="mt-4">SOBRE FISIOTERAPIA</h1>
+    <img
+      class="mt-4 animate__animated animate__bounceInRight"
+      :src="require('../assets/Escurinha-fisio.jpeg')"
+    />
+    <b-row>
+      <b-col>
+        <b-card
+          class="mt-5 animate__animated animate__bounceInRight card shadow p-3 bg-blue rounded"
+        >
+          <b-card-text class="card-text">
+            <p data-aos="fade-right">
+              Reabilitar, prevenir e tratar os distúrbios cinético-funcionais
+              decorrentes de alterações no movimento do corpo humano é a minha
+              missão como Fisioterapeuta.
+            </p>
+            <p data-aos="fade-left">
+              Utilizo técnicas, métodos e todo o meu conhecimento para resolver
+              o seu problema. Como cada indivíduo é único e o raciocínio clínico
+              é fundamental para o tratamento, início com uma avaliação precisa
+              que me direciona para a estratégia de tratamento ideal para você.
+              Sente alguma alteração no seu corpo que te resultou em dor ou
+              desconforto físico?
+              <strong
+                >Se você teve COVID-19 ou conhece alguém que teve e está com
+                sequelas</strong
+              >. Este é o momento para me procurar!
+            </p>
+            <p data-aos="fade-right">
+              O modelo de Teleatendimento é regularizado, seguro e possível
+              nesse momento de pandemia, ofereço o atendimento virtual para os
+              pacientes que não podem realizar a consulta domiciliar ou na
+              clínica por algum motivo. Tem interesse em ter uma consulta? É só
+              clicar no link abaixo!
+            </p>
+          </b-card-text>
+        </b-card>
+      </b-col>
+    </b-row>
+    <a class="animate__animated animate__tada" :href="linkWhatsapp">
+      <b-button
+        variant="info"
+        size="lg"
+        class="mt-4 animate__animated animate__bounceInRight"
+        >EU QUERO MARCAR UMA CONSULTA FISIOTERAPÊUTICA</b-button
       >
-        <b-card-text class="card-text">
-          Se você tem qualquer tipo de lesão, sente dor ou até mesmo pretende
-          prevenir o adoecimento, então este é o momento para me procurar!
-          Reabilitar e prevenir as alterações cinético-funcionais são os meus
-          objetivos. Utilizo de técnicas como Liberação miofascial,
-          Ventosaterapia, Dry Needling e Acupuntura de forma inteligente e
-          segura para lhe devolver alívio e bem-estar.
-        </b-card-text>
-      </b-card>
-      <b-card
-        class="mt-5 animate__animated animate__bounceInLeft card shadow p-3 bg-blue rounded"
-        title="POR QUE DEVO FAZER PILATES?"
-        id="pilates"
-        rounded
-      >
-        <b-card-text class="card-text">
-          Porque trabalha o corpo de forma global, traz conexão entre corpo -
-          mente - espírito, possibilita FORTALECIMENTO dos músculos,
-          FLEXIBILIDADE E MOBILIDADE das articulações, proporcionando assim uma
-          perfeita CONSCIÊNCIA E CONTROLE dos movimentos.
-        </b-card-text>
-      </b-card>
-
-      <b-card
-        class="mt-5 animate__animated animate__bounceInUp card shadow p-3 bg-blue rounded"
-        title="COMO FUNCIONA A ACUPUNTURA?"
-        id="acupuntura"
-      >
-        <b-card-text class="card-text">
-          É uma técnica milenar Chinesa, que tem como objetivo EQUILIBRAR AS
-          ENERGIAS do indivíduo. Através das agulhas, pontos específicos são
-          estimulados a fim de TRATAR E PREVENIR DOENÇAS, promovendo saúde e bem
-          estar completo.
-        </b-card-text>
-      </b-card>
-    </div>
-  </div>
+    </a>
+  </b-container>
 </template>
 
-<style lang="css">
-.texto {
-  width: 60%;
+<script>
+export default {
+  data() {
+    return {
+      linkWhatsapp:
+        "https://api.whatsapp.com/send?phone=5579999652202&text=Quero marcar uma consulta com você, Clara!",
+    };
+  },
+};
+</script>
+
+<style scoped lang="css">
+.card-text {
+  width: 70%;
   margin: 0 auto;
   font-size: 1.5rem;
-  color: #86b198;
 }
 
-#sobre img {
+.fisio img {
   margin: 0 auto;
-  width: 350px;
+  width: 70%;
 }
-
-#sobre h3 {
-  font-weight: bolder;
+.card-text p {
+  color: #86b198;
+  text-align: left;
+}
+.card-text strong {
   color: #86b198;
 }
-
-#sobre {
-  color: #86b198;
-}
-
-.card-text {
-  color: #86b198;
-}
-
-.card + .card {
-  margin-left: 0.5rem;
-}
-
-.card-title {
-  font-weight: 700;
-  color: #86b198;
-}
-.services {
-  display: flex;
-  width: 55%;
-  margin: 0 auto;
-  padding-bottom: 5rem;
-  flex-direction: column;
-}
-
-#sobre {
+.fisio {
   text-align: center;
+  margin: 0 auto;
 }
+/*.btn {
+  background-color: #7d9c96;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #7d9c96;
+}*/
 
 @media only screen and (max-width: 456px) {
-  .texto {
-    width: 90%;
-  }
-
-  #sobre h3 {
-    font-size: 1.4rem;
-  }
-
-  #sobre img {
+  .fisio img {
     margin: 0 auto;
     width: 70%;
   }
-
-  .card-title {
-    font-size: inherit;
-    font-weight: 700;
-  }
-
-  .services {
+  .card-text {
     width: 90%;
-  }
-
-  .services b-card {
-    font-size: 0.5rem;
-  }
-
-  .card-text,
-  .card-title {
-    font-size: 1.2rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
   }
 }
 
@@ -144,4 +116,3 @@
   }
 }
 </style>
- -->

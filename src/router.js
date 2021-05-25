@@ -4,8 +4,9 @@ import Meta from "vue-meta";
 
 import Home from "./components/Home";
 import Fotos from "./components/Fotos";
-// import Contatos from "./components/Contatos";
-// import Local from "./components/Local";
+import Fisio from "./components/Fisio";
+import Pilates from "./components/Pilates";
+import Acupuntura from "./components/Acupuntura";
 
 Vue.use(Router);
 Vue.use(Meta);
@@ -32,23 +33,32 @@ export default new Router({
             title: "Fotos",
          },
       },
-      // {
-      //    path: "/contatos",
-      //    name: "contatos",
-      //    component: Contatos,
-      //    meta: {
-      //       auth: false,
-      //       title: "Contatos",
-      //    },
-      // },
-      // {
-      //    path: "/local",
-      //    name: "local",
-      //    component: Local,
-      //    meta: {
-      //       auth: false,
-      //       title: "Localização",
-      //    },
-      // },
+      {
+         path: "/fisio",
+         name: "fisio",
+         component: Fisio,
+         meta: {
+            auth: false,
+            title: "Fisioterapia",
+         },
+      },
+      {
+         path: "/pilates",
+         name: "pilates",
+         component: Pilates,
+         meta: {
+            auth: false,
+            title: "Pilates",
+         },
+      },
+      {
+         path: "/acupuntura",
+         name: "acupuntura",
+         component: Acupuntura,
+         meta: {
+            auth: false,
+            title: "Acupuntura",
+         },
+      },
    ],
 });

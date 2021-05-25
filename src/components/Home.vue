@@ -78,7 +78,7 @@
       </b-row>
         </div>
       <div class="links mt-5" data-aos="zoom-in">
-        <router-link to="/sobre">
+        <router-link to="/fisio">
           <img :src="require('../assets/Escurinha-fisio.jpeg')" />
         </router-link>
         <div class="top-right mb-3">
@@ -119,6 +119,7 @@ export default {
 </script>
 
 <style scoped lang="css">
+
 img {
   margin: 0 auto;
   width: 100%;

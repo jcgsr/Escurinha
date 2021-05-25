@@ -51,7 +51,7 @@
               ><b-icon icon="list"></b-icon
             ></b-button>
             <div id="drop-cnt" class="dropdown-content">
-              <router-link to="/fisioterapia"> Fisioterapia </router-link>
+              <router-link to="/fisio"> Fisioterapia </router-link>
               <router-link to="/pilates"> Pilates </router-link>
               <router-link to="/acupuntura"> Acupuntura</router-link>
             </div>
