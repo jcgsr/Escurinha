@@ -88,7 +88,7 @@
         </div>
       </div>
 
-      <div class="links" data-aos="zoom-in">
+      <div class="links mt-4" data-aos="zoom-in">
         <router-link to="/pilates">
           <img :src="require('../assets/Escurinha-pilates.jpeg')" />
         </router-link>
@@ -203,6 +203,7 @@ ul li::before {
   }
   .fotos {
     flex-direction: column;
+    margin: 1.5rem
   }
   
 }
