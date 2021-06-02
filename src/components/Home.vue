@@ -45,21 +45,22 @@
             estudo
           </p>
           <p data-aos="fade-right">
-            Com a fisioterapia eu aprendi que o corpo é a nossa casa, e é
+            COM A FISIOTERAPIA EU APRENDI que o corpo é a nossa casa, e é
             preciso cuidar do seu templo para ser uma pessoa melhor.
           </p>
           <p data-aos="fade-left">
-            Com o Pilates eu entendi que o exercício físico feito de forma
+            COM O PILATES EU ENTENDI que o exercício físico feito de forma
             consciente pode ajudar a te manter em equilíbrio durante as
             adversidades do dia a dia, e que respirar é um ato de profunda
             conexão com o que é verdadeiramente essencial.
           </p>
           <p data-aos="fade-right">
-            Com a acupuntura compreendi o por que os chineses vivem mais, e como o estilo de vida e o conhecimento milenar oriental pode mudar de forma positiva a sua saúde proporcionando a tão sonhada longevidade.
+            COM A ACUPUNTURA COMPREENDI o por que os chineses vivem mais, e como o estilo de vida e o conhecimento milenar oriental pode mudar de forma positiva a sua saúde proporcionando a tão sonhada longevidade.
           </p>
           <p data-aos="fade-left">
             Deixo abaixo um mini currículo com cursos e vivências que tive durante esse caminho:
-            <ul>
+            <p>
+            <ul id="cv" data-aos="fade-right">
               <li>Fisioterapeuta pela Universidade Tiradentes</li>
               <li>Pós- graduanda em Medicina Chinesa - Acupuntura pelo Instituto HIB</li>
               <li>Instrutora de Pilates pela Active Pilates Brasil</li>
@@ -77,28 +78,30 @@
           </p>
       </b-row>
         </div>
-      <div class="links mt-5" data-aos="zoom-in">
+        <div class="fotos">
+      <div class="links">
         <router-link to="/fisio">
           <img :src="require('../assets/Escurinha-fisio.jpeg')" />
         </router-link>
-        <div class="top-right mb-3">
+        <div class="top-right">
           Quando devo procurar um fisioterapeuta?
         </div>
       </div>
 
       <div class="links" data-aos="zoom-in">
-        <router-link to="/sobre">
+        <router-link to="/pilates">
           <img :src="require('../assets/Escurinha-pilates.jpeg')" />
         </router-link>
-        <div class="top-right mb-3">Por que devo fazer pilates?</div>
+        <div class="top-right">Por que devo fazer pilates?</div>
       </div>
 
       <div class="links mt-5 mb-5" data-aos="zoom-in">
-        <router-link to="/sobre">
+        <router-link to="/acupuntura">
           <img :src="require('../assets/Escurinha-acupuntura.jpeg')" />
         </router-link>
-        <div class="top-right mb-3">Como funciona a acupuntura?</div>
+        <div class="top-right">Como funciona a acupuntura?</div>
       </div>
+    </div>
     </div>
     <Contatos id="contatos" data-aos="flip-up" />
     <Local id="local" class="mt-5" data-aos="flip-down" />
@@ -130,13 +133,19 @@ img {
   margin: 0 auto;
 }
 
+.fotos {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
 .top-right {
   color: #86b198;
 }
 #home p {
   color: #86b198;
   text-align: left;
-  width: 100%%;
+  width: 100%;
   font-size: 1.2rem;
 }
 
@@ -154,7 +163,19 @@ img {
 }
 
 #home ul li {
-  color: #86b198;
+  color: #fff;
+  background-color: #86b198;
+  padding: .5rem;
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+   color: #86b198; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
 .fotos-menu img {
@@ -179,6 +200,9 @@ img {
 
   .links {
     font-size: 1.5rem;
+  }
+  .fotos {
+    flex-direction: column;
   }
   
 }
