@@ -41,6 +41,11 @@ export default {
   metaInfo() {
     return {
       meta: [
+        {
+          name: "description",
+          content:
+            "Clara Azevedo é fisioterapeuta com experiência internacional. Trabalha também com Pilates e Acupuntura em Aracaju-SE.",
+        },
         // Twitter Card
         { name: "twitter:card", content: "Clara Azevedo" },
         {
@@ -67,6 +72,7 @@ export default {
           property: "og:description",
           content: "Site de Clara Azevedo",
         },
+        { name: "robots", content: "index, follow" },
       ],
     };
   },
